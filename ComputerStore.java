@@ -12,7 +12,7 @@ public class ComputerStore
                            "\nName: " + customer.getCustomerName() +
                            "\nPhone: " + customer.getCustomerPhoneNumber() +
                            "\nAddress: " + customer.getCustomerAddress() +
-                           "\nEmail: " + customer.getCostumerEmail() + "\n\n");
+                           "\nEmail: " + customer.getCustomerEmail() + "\n\n");
 
         Dell dellComputer = new Dell();
         Computer computer = new Dell();

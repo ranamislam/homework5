@@ -3,7 +3,7 @@ public class Customer
     private String customerName;
     private String customerAddress;
     private String customerPhoneNumber;
-    private String costumerEmail;
+    private String customerEmail;
 
 
     public void setCustomerName(String customerName)
@@ -23,7 +23,7 @@ public class Customer
 
     public void setCostumerEmail(String costumerEmail)
     {
-        this.costumerEmail = costumerEmail;
+        this.customerEmail = costumerEmail;
     }
 
 
@@ -42,8 +42,8 @@ public class Customer
         return customerPhoneNumber;
     }
 
-    public String getCostumerEmail()
+    public String getCustomerEmail()
     {
-        return costumerEmail;
+        return customerEmail;
     }
 }
